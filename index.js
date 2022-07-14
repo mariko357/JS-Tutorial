@@ -13,7 +13,17 @@ console.log("Hello world!");
 
     let someArray = ["red", "green", "blue", 5, true]
 
+    function printToConsole(input){
+        console.log(input)
+    }
+    
+    function square(input){
+        return input*input
+    }
+
     console.log(a, b, c+d, !bool, structAlike["a"], structAlike.b)
     console.log(someArray[0])
+    printToConsole("Hello")
+    printToConsole(square(53.5))
 }
 //console.log(a, b) //won`t work because let is enclosed in block
