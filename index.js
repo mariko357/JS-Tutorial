@@ -5,6 +5,12 @@ console.log("Hello world!");
     let c = 5;
     let d = 5;
     let bool = false;
-    console.log(a, b, c+d, !bool)
+
+    let structAlike = {
+        a: 1,
+        b: 2,
+    }
+
+    console.log(a, b, c+d, !bool, structAlike["a"], structAlike.b)
 }
 //console.log(a, b) //won`t work because let is enclosed in block
